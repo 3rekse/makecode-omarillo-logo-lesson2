@@ -22,23 +22,23 @@ turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ```
 
 ## Step 3
-** Try Out**
+** Try it Out**
 
-Notice the number 25 in the block. It can be changed to different numbers to move the **Turtle** a certain distance. Try moving the **Turtle** some different distances.
+Notice the number 25 in the block. The number can be changed to move the **Turtle** a different distance. Try moving the **Turtle** some different distances.
 ```blocks
 turtle.showTurtle()
 turtle.moveTurtleDirection(TurtleDirection.Forward, 75)
 ```
 
 ## Step 4
-You might have also noticed the the word "forward" is actually a menu. Besides forwards, you can also move backwards.
+You might have also noticed the the word "forward" is actually a menu. If you select it, you have the option to go forwards or backwards.
 ```blocks
 turtle.showTurtle()
 turtle.moveTurtleDirection(TurtleDirection.Backward, 25)
 ```
 
 ## Step 5
-** Try Out**
+** Try it Out**
 
 Try moving the **Turtle** some different distances backwards.
 ```blocks
