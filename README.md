@@ -1,45 +1,62 @@
 ### @explicitHints true
 
-# Turtle Logo - Lesson #1
+# Turtle Logo - Lesson #2
 
-## Turtle Logo - Lesson #1 @unplugged
-**Welcome to coding with Turtle Logo.**
+## Turtle Logo - Lesson #2 @unplugged
+**Making the Turtle Move.**
 
-In this lesson you will create your first Turtle Logo program. You will get a turtle showing up in your game console and have it say, "Hello, World!".
-![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson1/raw/main/assets/hello_world_screenshot.png)
+In this lesson you will make your **Turtle** move.
+![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson2/raw/main/assets/move_screenshot.png)
 
 ## Step 1
-All our programs begin with an ⇢``on start``⇠ block. This block runs all the commands that are inside it as soon as the program begins. It has been provided for you below.
+Once again, all our programs begin with an ⇢``on start``⇠ block. Then you need to add the **Turtle** using the ⇢``show turtle``⇠ block.
 ```blocks
-/**
- * This is the "on start" block
- */
+turtle.showTurtle()
 ```
 
 ## Step 2
-Next you will need to create your turtle. To do this you use the ⇢``show turtle``⇠ block and place it inside the ⇢``on start``⇠ block. This creates the turtle and places it in the middle of the screen.
+To move the **Turtle** you will use the ⇢``move turtle forward 25 steps``⇠ block and place it inside the ⇢``on start``⇠ block after the ⇢``show turtle``⇠ block.
 ```blocks
 turtle.showTurtle()
+turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ```
 
 ## Step 3
-Now that we have a turtle, you can ask it to say something. Drag out the ⇢``turtle says "Hello, World!" ⊕``⇠ block and place it inside the ⇢``on start``⇠ block after the ⇢``show turtle``⇠ block.
+** Try Out**
 
+Notice the number 25 in the block. It can be changed to different numbers to move the **Turtle** a certain distance. Try moving the **Turtle** some different distances.
 ```blocks
 turtle.showTurtle()
-turtle.say("Hello, World!")
+turtle.moveTurtleDirection(TurtleDirection.Forward, 75)
 ```
-## Step 4
-Success!
-
-Notice in the game console to the left, your object said "Hello, World!" for 1 second and then it's words vanish. If you want to run your program again, click the "🔁" button on the game console.
 
 ## Step 4
-**Your Turn**
-
-Get the turtle to say your name!
+You might have also noticed the the word "forward" is actually a menu. Besides forwards, you can also move backwards.
+```blocks
+turtle.showTurtle()
+turtle.moveTurtleDirection(TurtleDirection.Backward, 25)
+```
 
 ## Step 5
+** Try Out**
+
+Try moving the **Turtle** some different distances backwards.
+```blocks
+turtle.showTurtle()
+turtle.moveTurtleDirection(TurtleDirection.Backward, 75)
+```
+
+## Step 6
+Success!
+
+You can now make the **Turtle** move forwards and backwards.
+
+## Step 7
+**Your Turn**
+
+Get the turtle to move and then say, "I just moved!"
+
+## Step 8
 Done.
 
-You have successfully completed your first lesson in Turtle Logo.
+You have successfully completed your second lesson in Turtle Logo.
