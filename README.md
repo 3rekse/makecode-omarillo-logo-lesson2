@@ -43,7 +43,7 @@ turtle.moveTurtleDirection(TurtleDirection.Backward, 25)
 Try moving the **Turtle** some different distances backwards.
 ```blocks
 turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Backward, 75)
+turtle.moveTurtleDirection(TurtleDirection.Backward, 30)
 ```
 
 ## Step 6
@@ -60,3 +60,7 @@ Get the turtle to move and then say, "I just moved!"
 Done.
 
 You have successfully completed your second lesson in Turtle Logo.
+
+```ghost
+turtle.say("Hello, World!")
+```
