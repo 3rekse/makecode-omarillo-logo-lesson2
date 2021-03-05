@@ -9,12 +9,16 @@ In this lesson you will make your **Turtle** move.
 ![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson2/raw/main/assets/move_screenshot.png)
 
 ## Step 1
+** Follow Along**
+
 Once again, all our programs begin with an ⇢``on start``⇠ block. Then you need to add the **Turtle** using the ⇢``show turtle``⇠ block.
 ```blocks
 turtle.showTurtle()
 ```
 
 ## Step 2
+** Follow Along**
+
 To move the **Turtle** you will use the ⇢``move turtle forward 25 steps``⇠ block and place it inside the ⇢``on start``⇠ block after the ⇢``show turtle``⇠ block.
 ```blocks
 turtle.showTurtle()
@@ -31,6 +35,8 @@ turtle.moveTurtleDirection(TurtleDirection.Forward, 75)
 ```
 
 ## Step 4
+** Follow Along**
+
 You might have also noticed the the word "forward" is actually a menu. If you select it, you have the option to go forwards or backwards.
 ```blocks
 turtle.showTurtle()
@@ -57,7 +63,7 @@ You can now make the **Turtle** move forwards and backwards.
 Get the turtle to move and then say, "I just moved!"
 
 ## Step 8
-Done.
+**Done**
 
 You have successfully completed your second lesson in Turtle Logo.
 
