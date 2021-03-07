@@ -37,7 +37,7 @@ turtle.moveTurtleDirection(TurtleDirection.Forward, 75)
 ## Step 4
 ** Follow Along**
 
-You might have also noticed the the word "forward" is actually a menu. If you select it, you have the option to go forwards or backwards.
+You might have also noticed the word "forward" is actually a menu. If you select it, you have the option to go forwards or backwards.
 ```blocks
 turtle.showTurtle()
 turtle.moveTurtleDirection(TurtleDirection.Backward, 25)
@@ -53,7 +53,7 @@ turtle.moveTurtleDirection(TurtleDirection.Backward, 30)
 ```
 
 ## Step 6
-Success!
+**Success!**
 
 You can now make the **Turtle** move forwards and backwards.
 
