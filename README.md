@@ -60,7 +60,7 @@ You can now make the **Turtle** move forwards and backwards.
 ## Step 7
 **Your Turn**
 
-Get the turtle to move and then say, "I just moved!"
+Get your **Turtle** to move and then say, "I just moved!"
 
 ## Step 8
 **Done**
