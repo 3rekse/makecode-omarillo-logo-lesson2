@@ -5,7 +5,7 @@
 ## Omarillo - Lezione #2 @unplugged
 **Fare muovere la omarillo.**
 
-In questa lezione insegnerai le mosse all' **Omarillo**.
+In questa lezione insegnerai delle mosse all' **Omarillo**.
 ![Ciao mondo!](https://github.com/Mr-Coxall/makecode-arcade-omarillo-logo-lesson2/raw/main/assets/move_screenshot.png)
 
 ## Passo 1
