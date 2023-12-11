@@ -1,75 +1,75 @@
 ### @explicitHints true
 
-# Turtle Logo - Lesson #2
+# Omarillo - Lesson #2
 
-## Turtle Logo - Lesson #2 @unplugged
-**Making the Turtle Move.**
+## Omarillo - Lezione #2 @unplugged
+**Fare muovere la omarillo.**
 
-In this lesson you will make your **Turtle** move.
-![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson2/raw/main/assets/move_screenshot.png)
+In questa lezione insegnerai le mosse all' **Omarillo**.
+![Ciao mondo!](https://github.com/Mr-Coxall/makecode-arcade-omarillo-logo-lesson2/raw/main/assets/move_screenshot.png)
 
-## Step 1
+## Passo 1
 ** Follow Along**
 
-Once again, all our programs begin with an ⇢``on start``⇠ block. Then you need to add the **Turtle** using the ⇢``show turtle``⇠ block.
+Ancora una volta, tutti i nostri programmi iniziano con un ⇢``on start``⇠ block. Quindi devi aggiungere l' **omarillo** utilizzando il blocco ⇢``show omarillo``⇠.
 ```blocks
-turtle.showTurtle()
+omarillo.showOmarillo()
 ```
 
-## Step 2
+## Passo 2
 ** Follow Along**
 
-To move the **Turtle** you will use the ⇢``move turtle forward 25 steps``⇠ block and place it inside the ⇢``on start``⇠ block after the ⇢``show turtle``⇠ block.
+Per spostare l' **Omarillo** utilizzerai il blocco ⇢``sposta l'omarillo avanti di 25 passi``⇠ e posizionalo all'interno del blocco ⇢``all'avvio``⇠ dopo il blocco ⇢``show omarillo``⇠.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
 ```
 
-## Step 3
+## Passaggio 3
 ** Try it Out**
 
-Notice the number 25 in the block. The number can be changed to move the **Turtle** a different distance. Try moving the **Turtle** some different distances.
+Notare il numero 25 nel blocco. Il numero può essere modificato per spostare l' **Omarillo** a una distanza diversa. Prova a spostare l' **Omarillo** a distanze diverse.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 75)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 75)
 ```
 
-## Step 4
+## Passaggio 4
 ** Follow Along**
 
-You might have also noticed the word "forward" is actually a menu. If you select it, you have the option to go forwards or backwards.
+Potresti anche aver notato che la parola "avanti/Forward" è in realtà un menu. Se lo selezioni, hai la possibilità di andare avanti o indietro.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Backward, 25)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 25)
 ```
 
-## Step 5
+## Passaggio 5
 ** Try it Out**
 
-Try moving the **Turtle** some different distances backwards.
+Prova a spostare indietro l' **Omarillo** di alcune distanze diverse.
 ```blocks
-turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Backward, 30)
+omarillo.showOmarillo()
+omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 30)
 ```
 
-## Step 6
+## Passaggio 6
 **Success!**
 
-You can now make the **Turtle** move forwards and backwards.
+Ora puoi far muovere l' **Omarillo** avanti e indietro.
 
-## Step 7
+## Passaggio 7
 **Your Turn**
 
-Get your **Turtle** to:
-- move forwards
-- move backwards
-- then say, "I just moved!"
+Ottieni la tua **Omarillo** per:
+- andare avanti
+- muoversi indietro
+- poi dì: "Mi sono appena trasferito!"
 
-## Step 8
+## Passaggio 8
 **Done**
 
-You have successfully completed your second lesson in Turtle Logo.
+Hai completato con successo la tua seconda lezione a Omarillo.
 
 ```ghost
-turtle.say("Hello, World!")
+omarillo.say("Ciao mondo!")
 ```
