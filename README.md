@@ -3,7 +3,7 @@
 # Omarillo - Lesson #2
 
 ## Omarillo - Lezione #2 @unplugged
-**Fare muovere la omarillo.**
+**Fare muovere l'omarillo.**
 
 In questa lezione insegnerai delle mosse all' **Omarillo**.
 ![Ciao mondo!](https://github.com/Mr-Coxall/makecode-arcade-omarillo-logo-lesson2/raw/main/assets/move_screenshot.png)
@@ -19,7 +19,7 @@ omarillo.showOmarillo()
 ## Passo 2
 ** Follow Along**
 
-Per spostare l' **Omarillo** utilizzerai il blocco ⇢``sposta l'omarillo avanti di 25 passi``⇠ e posizionalo all'interno del blocco ⇢``all'avvio``⇠ dopo il blocco ⇢``show omarillo``⇠.
+Per far spostare l' **Omarillo** utilizzerai il blocco ⇢``sposta l'omarillo avanti di 25 passi``⇠ e posizionalo all'interno del blocco ⇢``all'avvio``⇠ dopo il blocco ⇢``show omarillo``⇠.
 ```blocks
 omarillo.showOmarillo()
 omarillo.moveOmarilloDirection(OmarilloDirection.Forward, 25)
@@ -46,7 +46,7 @@ omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 25)
 ## Passaggio 5
 ** Try it Out**
 
-Prova a spostare indietro l' **Omarillo** di alcune distanze diverse.
+Prova a spostare all'indietro l' **Omarillo** di alcune distanze diverse.
 ```blocks
 omarillo.showOmarillo()
 omarillo.moveOmarilloDirection(OmarilloDirection.Backward, 30)
@@ -60,10 +60,10 @@ Ora puoi far muovere l' **Omarillo** avanti e indietro.
 ## Passaggio 7
 **Your Turn**
 
-Ottieni la tua **Omarillo** per:
-- andare avanti
-- muoversi indietro
-- poi dì: "Mi sono appena trasferito!"
+fai si che il tuo  **Omarillo** si sposti fallo:
+- andare in avanti
+- tornare indietro
+- poi dire: "Whaw! Mi sono appena trasferito!"
 
 ## Passaggio 8
 **Done**
